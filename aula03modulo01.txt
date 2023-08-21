@@ -1,0 +1,62 @@
+Change|Mudar@
+I|Eu@
+Guess|Acho@
+I guess|Eu acho@
+Good|Bom@
+Good|Boa@
+Change is good|Mudar é bom@
+I guess|Eu acho@
+I guess change is good|Eu acho que mudar é bom@
+Any|Qualquer@
+For|Para@
+For any|Para qualquer@
+Us|Nós@
+Of|De@
+Of us|De nós@
+For any of us|Para qualquer um de nós@
+I guess change is good|Eu acho que mudar é bom@
+I guess change is good for any of us|Eu acho que a mudança é boa para qualquer um de nós@
+Whatever it|Seja o que for@
+Whatever it|Tanto faz@
+Whatever it|Seja o que for@
+Whatever it|Tanto faz@
+Take|Preciso@
+Take|Preciso@
+Whatever it take|Seja o que for preciso@
+You|Você@
+You|Você@
+For|Para@
+For you|Para você@
+Of you|De você@
+For any of you|Para qualquer um de vocês@
+Whatever it|Seja o que for@
+Whatever it|Tanto faz@
+Whatever it|Seja o que for@
+Whatever it|Tanto faz@
+Take|Preciso@
+Take|Preciso@
+Whatever it take|Seja o que for preciso@
+Whatever it take for any of you|O que for preciso para qualquer um de vocês@
+You all|Vocês todos@
+Niggaz|Negros@
+You all niggaz|Vocês todos negros@
+To get up|Levantar-se@
+The|O@
+The|A@
+Hood|Capuz@
+The hood|O capuz@
+To get up|Levantar-se@
+To get up the hood|Levantar o capuz@
+Whatever it take|Seja o que for preciso@
+Whatever it take for any of you|O que for preciso para qualquer um de vocês@
+Whatever it take for any of you all niggaz to get up out the hood|O que for preciso para qualquer um de vocês negros levantem o capuz@
+Love|Amor@
+Love you|Amo você@
+Love for you!Amor para você@
+But|Mas@
+Nothing|Nada@
+Got nothing|Não tenho nada@
+Got nothing but love for you|Não tenho nada além de amor por você@
+Thing|Coisa@
+Things|Coisas@
+You|Você@

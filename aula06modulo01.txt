@@ -1,0 +1,102 @@
+Meeting|Reunião@
+Meeting|Reunião@
+My|Meu@
+My|Minha@
+My|Minha@
+My meeting|Minha reunião@
+My meeting|Minha reunião@
+For|Para@
+For my meeting@Para minha reunião@
+For my meeting@Para minha reunião@
+For my meeting@Para minha reunião@
+Late|Tarde@
+Late|Tarde@
+Up being late|Atrasado@
+Up being late|Atrasado@
+Up being late|Atrasada@
+Up being late|Atrasada@
+I|Eu@
+I|Eu@
+I ended|Eu acabei@
+I ended|Eu acabei@
+I ended up being late|Eu acabei me atrasando@
+I ended up being late|Eu acabei me atrasando@
+I ended up being late|Eu acabei me atrasando@
+For my meeting@Para minha reunião@
+For my meeting@Para minha reunião@
+For my meeting@Para minha reunião@
+I ended up being late for my meeting|Eu acabei me atrasando para a minha reunião@
+I ended up being late for my meeting|Eu acabei me atrasando para a minha reunião@
+I ended up being late for my meeting|Eu acabei me atrasando para a minha reunião@
+I ended up being late for my meeting|Eu acabei me atrasando para a minha reunião@
+It's okay.|Tudo bem.@
+Where is the bathroom?|Onde fica o banheiro?@
+What's the weather like?|Como está o tempo?@
+What's for dinner?|O que tem para o jantar?@
+I'm fine.|Estou bem.@
+See you tomorrow.|Vejo você amanhã.@
+What's your favorite place?|Qual é o seu lugar favorito?@
+I don't understand.|Eu não entendo.@
+Excuse me, I'm lost.|Com licença, estou perdido.@
+How was your day?|Como foi o seu dia?@
+I'm busy.|Estou ocupado.@
+What's new?|O que há de novo?@
+I'm excited.|Estou animado.@
+What do you think?|O que você acha?@
+I love you.|Eu te amo.@
+What time is it?|Que horas são?@
+Where are you from?|De onde você é?@
+How much does it cost?|Quanto custa isso?@
+I'm hungry.|Estou com fome.@
+I'm thirsty.|Estou com sede.@
+Meeting|Reunião@
+Meeting|Reunião@
+My|Meu@
+My|Minha@
+My|Minha@
+My meeting|Minha reunião@
+My meeting|Minha reunião@
+For|Para@
+For my meeting@Para minha reunião@
+For my meeting@Para minha reunião@
+For my meeting@Para minha reunião@
+Late|Tarde@
+Late|Tarde@
+Up being late|Atrasado@
+Up being late|Atrasado@
+Up being late|Atrasada@
+Up being late|Atrasada@
+I|Eu@
+I|Eu@
+I ended|Eu acabei@
+I ended|Eu acabei@
+I ended up being late|Eu acabei me atrasando@
+I ended up being late|Eu acabei me atrasando@
+I ended up being late|Eu acabei me atrasando@
+For my meeting@Para minha reunião@
+For my meeting@Para minha reunião@
+For my meeting@Para minha reunião@
+I ended up being late for my meeting|Eu acabei me atrasando para a minha reunião@
+I ended up being late for my meeting|Eu acabei me atrasando para a minha reunião@
+I ended up being late for my meeting|Eu acabei me atrasando para a minha reunião@
+I ended up being late for my meeting|Eu acabei me atrasando para a minha reunião@
+It's okay.|Tudo bem.@
+Where is the bathroom?|Onde fica o banheiro?@
+What's the weather like?|Como está o tempo?@
+What's for dinner?|O que tem para o jantar?@
+I'm fine.|Estou bem.@
+See you tomorrow.|Vejo você amanhã.@
+What's your favorite place?|Qual é o seu lugar favorito?@
+I don't understand.|Eu não entendo.@
+Excuse me, I'm lost.|Com licença, estou perdido.@
+How was your day?|Como foi o seu dia?@
+I'm busy.|Estou ocupado.@
+What's new?|O que há de novo?@
+I'm excited.|Estou animado.@
+What do you think?|O que você acha?@
+I love you.|Eu te amo.@
+What time is it?|Que horas são?@
+Where are you from?|De onde você é?@
+How much does it cost?|Quanto custa isso?@
+I'm hungry.|Estou com fome.@
+I'm thirsty.|Estou com sede.@
