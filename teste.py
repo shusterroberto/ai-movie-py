@@ -15,7 +15,11 @@ arquivos = {"1seg.mp3"}
 def text_to_speech(textPort, textEng, filename='output.mp3'):
     global identy
 
-    textPortComplete='Diga: '+textPort
+    if(textPort[-1]=='?'):
+        textPortComplete='Pergunte: '+textPort
+    else:
+        textPortComplete='Diga: '+textPort
+
     bSlow=(textPort[0]=='-')
 
     if(bSlow):
@@ -40,7 +44,7 @@ bra=""
 eng=""
 
 # Abre o arquivo em modo de leitura
-with open('C:/github/ai-movie-py/aula11modulo01.txt', 'r') as arquivo:
+with open('C:/github/ai-movie-py/aula02modulo01.txt', 'r') as arquivo:
     for linha in arquivo:
         for i in linha:
             if(i=="|"): 

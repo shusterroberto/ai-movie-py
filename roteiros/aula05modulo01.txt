@@ -1,0 +1,62 @@
+Hello!|Olá!@
+How are you?|Como vai você?@
+What's up?|E aí?@
+I don't know.|Não sei.@
+Thank you.|Obrigado.@
+You're welcome.|De nada.@
+Please.|Por favor.@
+Excuse me.|Com licença.@
+I'm sorry.|Desculpe.@
+Yes.|Sim.@
+No.|Não.@
+Today|Hoje@
+Today|Hoje@
+Yesterday|Ontem@
+Yesterday|Ontem@
+He was|Foi@
+It was yesterday|Foi ontem@
+Looks|Parece@
+Looks|Parece@
+Looks|Parece@
+Looks like it was yesterday|Parece que foi ontem@
+Looks like it was yesterday|Parece que foi ontem@
+Looks like it was yesterday|Parece que foi ontem@
+Children|Crianças@
+Children|Crianças@
+We were|Éramos
+We were|Éramos
+That we were|Que éramos@
+That we were|Que éramos@
+We were children|Éramos crianças@
+We were children|Éramos crianças@
+that we were children|Que éramos crianças@
+that we were children|Que éramos crianças@
+that we were children|Que éramos crianças@
+Traffic|Tráfego@
+Traffic|Tráfego@
+Traffic|Trânsito@
+Traffic|Trânsito@
+The|O@
+The traffic|O tráfego@
+The traffic|O trânsito@
+Morning|Manhã@
+Morning|Manhã@
+This|Esse@
+This|Esse@
+This|Essa@
+This|Essa@
+This|Esta@
+This morning|Esta manhã@
+The traffic|O trânsito@
+The traffic this morning|O trânsito esta manhã@
+The traffic this morning|O trânsito esta manhã@
+The traffic this morning|O trânsito esta manhã@
+Nightmare|Pesadelo@
+Nightmare|Pesadelo@
+Was|Foi@
+A|Um@
+A|Um@
+Was a|Foi um@
+Was a nightmare|Foi um pesadelo@
+Was a nightmare|Foi um pesadelo@
+Was a nightmare|Foi um pesadelo@

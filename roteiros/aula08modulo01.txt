@@ -1,0 +1,88 @@
+Lately|Ultimamente@
+Lately|Ultimamente@
+Lately|Ultimamente@
+Unpredictable|Imprevisível@
+Unpredictable|Imprevisível@
+Unpredictable lately|Imprevisível ultimamente@
+Unpredictable lately|Imprevisível ultimamente@
+Unpredictable lately|Imprevisível ultimamente@
+So|Tão@
+So|Tão@
+So unpredictable|Tão imprevisível@
+So unpredictable|Tão imprevisível@
+So unpredictable lately|Tão imprevisível ultimamente@
+So unpredictable lately|Tão imprevisível ultimamente@
+So unpredictable lately|Tão imprevisível ultimamente@
+Been|Estive@
+Been|Estive@
+Been|Estado@
+Been|Estado@
+Has|Tem@
+Has|Tem@
+Has been|Tem estado@
+Has been|Tem estado@
+Has been|Tem estado@
+Weather|Clima@
+Weather|Clima@
+The|O@
+The|A@
+The weather|O clima@
+The weather|O clima@
+The weather|O clima@
+The weather has been|O tempo tem estado@
+The weather has been|O tempo tem estado@
+The weather has been|O tempo tem estado@
+So unpredictable lately|Tão imprevisível ultimamente@
+So unpredictable lately|Tão imprevisível ultimamente@
+The weather has been so unpredictable lately|O tempo tem estado tão imprevisível ultimamente@
+The weather has been so unpredictable lately|O tempo tem estado tão imprevisível ultimamente@
+The weather has been so unpredictable lately|O tempo tem estado tão imprevisível ultimamente@
+The weather has been so unpredictable lately|O tempo tem estado tão imprevisível ultimamente@
+Sunny|Ensolarada@
+Sunny|Ensolarada@
+Sunny|Ensolarado@
+Sunny|Ensolarado@
+It's|Está@
+It's|Está@
+It's sunny|Está ensolarado@
+It's sunny|Está ensolarado@
+It's sunny|Está ensolarado@
+Minute|Minuto@
+Minute|Minuto@
+One minute|Um minuto@
+One minute|Um minuto@
+One minute it's sunny|Um minuto está ensolarado@
+One minute it's sunny|Um minuto está ensolarado@
+One minute it's sunny|Um minuto está ensolarado@
+One minute it's sunny|Um minuto está ensolarado@
+The weather has been so unpredictable lately|O tempo tem estado tão imprevisível ultimamente@
+The weather has been so unpredictable lately|O tempo tem estado tão imprevisível ultimamente@
+Rain|Chuva@
+Rain|Chuva@
+Pouring rain|Chovendo@
+Pouring rain|Chovendo@
+Pouring rain|Chovendo@
+Next|Próximo@
+Next|Próximo@
+Next|Próxima@
+Next|Próxima@
+And|E@
+And|E@
+And the next|E no próximo@
+And the next|E no próximo@
+And the next|E no próximo@
+It's|Está@
+And the next it's pouring rain|E no próximo está chovendo@
+And the next it's pouring rain|E no próximo está chovendo@
+And the next it's pouring rain|E no próximo está chovendo@
+And the next it's pouring rain|E no próximo está chovendo@
+One minute it's sunny|Um minuto está ensolarado@
+One minute it's sunny, and the next it's pouring rain|Um minuto está ensolarado e no próximo está chovendo@
+One minute it's sunny, and the next it's pouring rain|Um minuto está ensolarado e no próximo está chovendo@
+One minute it's sunny, and the next it's pouring rain|Um minuto está ensolarado e no próximo está chovendo@
+One minute it's sunny, and the next it's pouring rain|Um minuto está ensolarado e no próximo está chovendo@
+The weather has been so unpredictable lately|O tempo tem estado tão imprevisível ultimamente@
+The weather has been so unpredictable lately; one minute it's sunny, and the next it's pouring rain|O tempo tem estado tão imprevisível ultimamente; em um minuto está ensolarado e no próximo está chovendo torrencialmente@
+The weather has been so unpredictable lately; one minute it's sunny, and the next it's pouring rain|O tempo tem estado tão imprevisível ultimamente; em um minuto está ensolarado e no próximo está chovendo torrencialmente@
+The weather has been so unpredictable lately; one minute it's sunny, and the next it's pouring rain|O tempo tem estado tão imprevisível ultimamente; em um minuto está ensolarado e no próximo está chovendo torrencialmente@
+The weather has been so unpredictable lately; one minute it's sunny, and the next it's pouring rain|O tempo tem estado tão imprevisível ultimamente; em um minuto está ensolarado e no próximo está chovendo torrencialmente@

@@ -1,0 +1,89 @@
+Work|Trabalho@
+Work|Trabalho@
+To work|Trabalhar@
+To work|Trabalhar@
+Work|Trabalho@
+At|No@
+At|No@
+At|No@
+At work|No trabalho@
+At work|No trabalho@
+Day|Dia@
+Day|Dia@
+Long|Longo@
+Long|Longo@
+Long|Longa@
+Long|Longa@
+A long|Um longo@
+A long|Um longo@
+A long|Uma longa@
+A long|Uma longa@
+A long day|Um longo dia@
+A long day|Um longo dia@
+A long day|Um longo dia@
+At work|No trabalho@
+At work|No trabalho@
+A long day at work|Um longo dia de trabalho@
+A long day at work|Um longo dia de trabalho@
+A long day at work|Um longo dia de trabalho@
+A long day at work|Um longo dia de trabalho@
+Had|Tive@
+Had|Tive@
+I|Eu@
+I|Eu@
+I had|Eu tive@
+I had|Eu tive@
+A long day|Um longo dia@
+I had a long day|Eu tive um longo dia@
+I had a long day|Eu tive um longo dia@
+I had a long day|Eu tive um longo dia@
+At work|No trabalho@
+I had a long day at work|Eu tive um longo dia de trabalho@
+I had a long day at work|Eu tive um longo dia de trabalho@
+I had a long day at work|Eu tive um longo dia de trabalho@
+I had a long day at work|Eu tive um longo dia de trabalho@
+Just|Apenas@
+Just|Apenas@
+I|Eu@
+I will|Eu vou@
+I will|Eu vou@
+I will|Eu vou@
+I will just|Eu vou apenas@
+I will just|Eu vou apenas@
+So|Então@
+So|Então@
+So I|Então eu@
+So I|Então eu@
+So I will|Então eu vou@
+So I will|Então eu vou@
+So I will|Então eu vou@
+Relax|Relaxar@
+Relax|Relaxar@
+I will just|Eu vou apenas@
+Relax|Relaxar@
+I will just relax|Eu vou apenas relaxar@
+I will just relax|Eu vou apenas relaxar@
+I will just relax|Eu vou apenas relaxar@
+So I|Então eu@
+So I will just relax|Então eu vou apenas relaxar@
+So I will just relax|Então eu vou apenas relaxar@
+So I will just relax|Então eu vou apenas relaxar@
+And|E@
+And|E@
+Watch|Assistir@
+Watch|Assistir@
+Watch TV|Assistir TV@
+Watch TV|Assistir TV@
+Tonight|Essa noite@
+Tonight|Essa noite@
+Watch TV tonight|Assistir TV essa noite@
+Watch TV tonight|Assistir TV essa noite@
+Watch TV tonight|Assistir TV essa noite@
+And|E@
+And|E@
+And watch TV tonight|E assistir TV essa noite@
+And watch TV tonight|E assistir TV essa noite@
+And watch TV tonight|E assistir TV essa noite@
+So I will just relax|Então eu vou apenas relaxar@
+Listen|-Agora ouça e veja se reconhece o diálogo a seguir@
+I had a long day at work, so I'm just going to relax and watch some TV tonight|-Ouça@

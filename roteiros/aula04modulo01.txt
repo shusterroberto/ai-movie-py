@@ -1,0 +1,83 @@
+Hello|Olá@
+Hey|Olá@
+Guys|Pessoal@
+Hey guys|Olá pessoal@
+Is|É@
+My|Meu@
+Is|É@
+My|Meu@
+Name|Nome@
+My name is|Meu nome é@
+My name is Shuster|Meu nome é Shuster@
+Technology|Tecnologia@
+Work|Trabalho@
+In|Em@
+Work|Trabalho@
+Technology|Tecnologia@
+Work in Technology|Trabalho em Tecnologia@
+With|Com@
+Specifically|Especificamente@
+More|Mais@
+With|Com@
+More specifically|Mais especificamente@
+More specifically|Mais especificamente@
+Of|De@
+Engineering|Engenharia@
+Software Engineering|Engenharia de software@
+More|Mais@
+With|Com@
+More specifically|Mais especificamente@
+More specifically with software engineering|Mais especificamente com engenharia de software@
+English|Inglês@
+No|Não@
+To|Falar speak@
+I|Eu@
+I speak|Eu falo@
+I speak English|Eu falo inglês@
+I speak English|Eu não falo inglês@
+I don't|Eu não@
+I don't speak English|Não falo inglês@
+Fluently|Fluentemente@
+Fluently|Fluentemente@
+I do not speak English fluently|Não falo inglês fluentemente@
+To believe|Acreditar@
+I believe|Eu acredito@
+I don't believe|Eu não acredito@
+Can|Posso@
+Can|Posso@
+I can believe|Posso acreditar@
+I can't|Não posso@
+I can't|Não posso@
+I can not believe|Eu não posso acreditar@
+I can not believe|Eu não posso acreditar@
+I can not believe|Eu não posso acreditar@
+Flying|Voando@
+Flying|Voando@
+It is|Está@
+It is|Está@
+It's flying|Está voando@
+Time|Tempo@
+Time|Tempo@
+The|O@
+The time|O tempo@
+The time is flying|O tempo está voando@
+The time is flying|O tempo está voando@
+The time is flying|O tempo está voando@
+Fast|Rápido@
+Fast|Rápido@
+How|Quão@
+How|Quão@
+How fast|O quão rápido@
+How fast time is flying|O quão rápido o tempo está voando@
+How fast time is flying|O quão rápido o tempo está voando@
+How fast time is flying|O quão rápido o tempo está voando@
+I can believe|Posso acreditar@
+I can't|Não posso@
+I can't|Não posso@
+I can not believe|Eu não posso acreditar@
+I can not believe|Eu não posso acreditar@
+I can not believe|Eu não posso acreditar@
+I can't believe how fast time is flying by|Eu não posso acreditar o quão rápido o tempo está voando@
+I can't believe how fast time is flying by|Eu não posso acreditar o quão rápido o tempo está voando@
+I can't believe how fast time is flying by|Eu não posso acreditar o quão rápido o tempo está voando@
+I can't believe how fast time is flying by|Eu não posso acreditar o quão rápido o tempo está voando@

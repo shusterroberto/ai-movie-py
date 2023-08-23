@@ -37,4 +37,4 @@ while i<countFiles:
         i+=1
 
 # Salve o arquivo final
-finalSong.export("C:/Users/shust/Music/aula11modulo1.mp3", format="mp3")
+finalSong.export("C:/Users/shust/Music/aula02modulo1.mp3", format="mp3")
