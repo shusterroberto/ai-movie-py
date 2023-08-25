@@ -1,28 +1,62 @@
-from googletrans import Translator
+from glob import glob
+from pydub import AudioSegment
+from pydub.generators import WhiteNoise
+from math import *
+from random import *
+import sys
+from gtts import gTTS
+from unidecode import unidecode
+import os
 
-def translate_text(text, target_language):
-    translator = Translator()
-    translated = translator.translate(text, dest=target_language)
-    return translated.text
+identy=0
+characters = ".'!?Ã;¡ê"
+arquivos = {"1seg.mp3"}
 
-input_text = "I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation."
-target_language = "pt"  # Código do idioma de destino (por exemplo, "pt" para português)
+def text_to_speech(textPort, textEng, filename='output.mp3'):
+    global identy
 
-input_text = input_text.replace("will go down","will stay")
+    if(textPort[-1]=='?'):
+        textPortComplete='Pergunte: '+textPort
+    else:
+        textPortComplete='Diga: '+textPort
 
-palavra=""
-frase=""
-for i in input_text:
-    palavra = palavra + i
-    if(i==" " or i==","):        
-        translated_text = translate_text(palavra, target_language)
-        print(f"Diga: {translated_text} \n {palavra} \n")
-        frase=frase + palavra
-        palavra=""
-        
-    if(i==","):
-        print(f"{frase} \n")
-        translated_text = translate_text(frase, target_language)
-        print(f"Diga: {translated_text}")
-        frase=""
-        palavra=""
+    bSlow=(textPort[0]=='-')
+
+    if(bSlow):
+        textPortComplete=textPort.replace('-','')
+
+    tts = gTTS(text=textPortComplete, lang='pt', slow=False)
+    tts.save(filename+str(identy)+'.mp3')
+    arquivos.add(str(identy)+'.mp3')
+    identy+=1
+
+    tts = gTTS(text=textEng, lang='en', slow=bSlow)
+    tts.save(filename+str(identy)+'.mp3')
+    arquivos.add(str(identy)+'.mp3')
+    identy+=1
+    print(f"{textPort} : {textEng}")
+
+def generate_audio(file="", path="C:/github"):
+    global identy
+    identy=0    
+    texto=""
+    bra=""
+    eng=""
+    
+    with open(file, 'r') as arquivo:
+        for linha in arquivo:
+            for i in linha:
+                if(i=="|"): 
+                    eng=texto
+                    texto=""
+
+                if(i=="@"): 
+                    bra=texto
+                    texto=""
+
+                if(i!="|" and i!="@" and i!="\n"): 
+                    texto=texto+i
+
+            text_to_speech(textPort=bra, textEng=eng, filename=path)
+    
+    return True
