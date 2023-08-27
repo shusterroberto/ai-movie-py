@@ -1,5 +1,8 @@
-from pydub import AudioSegment
 import os
+import clear
+import utils.copy
+
+from pydub import AudioSegment
 
 def finalize(inputs_dir="./files/", output="file.mp3"):
     print(f"Trabalhando no arquivo: {output}")
@@ -28,9 +31,12 @@ def finalize(inputs_dir="./files/", output="file.mp3"):
                 longSound = True
 
             finalSong = finalSong + audio1 + audio2
-            i+=1
+            
+        i+=1
 
     # Salve o arquivo final
     finalSong.export(output, format="mp3")
+    clear.clear_folder(diretorio=inputs_dir, output=output.replace(".mp3",""))
+    #utils.copy.backup(diretorio=inputs_dir,output=output.replace(".mp3",""))
 
     return True
