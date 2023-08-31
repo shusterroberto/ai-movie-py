@@ -1,53 +1,31 @@
-from gtts import gTTS
 import os
+from moviepy.editor import *
 
-identy=0
+FFMPEG_BINARY = os.getenv('FFMPEG_BINARY', 'ffmpeg-imageio')
+#IMAGEMAGICK_BINARY = os.getenv('IMAGEMAGICK_BINARY', 'auto-detect')
+IMAGEMAGICK_BINARY = "C:/Program Files/ImageMagick-7.1.1-Q16-HDRI/ffmpeg.exe/magick.exe"
 
-def text_to_speech(textPort, textEng, filename='output.mp3', id=0, play=False):
-    global identy
-    tts = gTTS(text='Diga: '+textPort, lang='pt', slow=False)
-    tts.save(filename+str(identy)+textPort+'.mp3')
+# VIDEO CLIPS
+clip = VideoClip(make_frame, duration=4) # for custom animations (see below)
+clip = VideoFileClip("my_video_file.mp4") # or .avi, .webm, .gif ...
+clip = ImageSequenceClip(['image_file1.jpeg', ...], fps=24)
+clip = ImageClip("my_picture.png") # or .jpeg, .tiff, ...
+clip = TextClip("Hello!", font="Amiri-Bold", fontsize=70, color="black")
+clip = ColorClip(size=(460,380), color=[R,G,B])
 
-    tts = gTTS(text=textEng, lang='en', slow=False)
-    tts.save(filename+str(identy)+textEng+'.mp3')
+# AUDIO CLIPS
+clip = AudioFileClip("my_audiofile.mp3") # or .ogg, .wav... or a video!
+clip = AudioArrayClip(numpy_array, fps=44100) # from a numerical array
+clip = AudioClip(make_frame, duration=3) # uses a function make_frame(t)
 
-    identy=identy+1
+# Criar um objeto VideoClip com um texto
+txt_clip = TextClip(txt="Olá, mundo!", fontsize=70, color='white')
 
-    if(play):
-        os.system(f"start {filename}")  # Reproduzir o áudio gerado
+# Carregar um arquivo de áudio
+audio_clip = AudioFileClip("C:/Users/shust/OneDrive/Inglês Conversação/Modulo 01/aula01modulo01.mp3")
 
-# Módulo 1 do ingles conversacao
-modulo="modulo01"
-path="C:/Users/shust/Music/" + modulo + "/" 
-
-#I am happy to join with you today in what will go down in history as the greatest demonstration 
-#for freedom in the history of our nation.
-id=0
-
-text_to_speech(textPort="Eu estou feliz", textEng="I am happy", filename=path, id=id+1)
-text_to_speech(textPort="Eu estou feliz com você", textEng="I am happy for you", filename=path, id=id+1)
-text_to_speech(textPort="Juntar-se", textEng="To join", filename=path, id=id+1)
-text_to_speech(textPort="Juntar-se a você", textEng="Join you", filename=path, id=id+1)
-text_to_speech(textPort="Para se juntar a você agora", textEng="To join you now", filename=path, id=id+1)
-text_to_speech(textPort="Para se juntar aos vencedores", textEng="To join the winners", filename=path, id=id+1)
-text_to_speech(textPort="Para se juntar a você hoje", textEng="To join with you today", filename=path, id=id+1)
-text_to_speech(textPort="O que", textEng="What", filename=path, id=id+1)
-text_to_speech(textPort="Vai", textEng="Will", filename=path, id=id+1)
-text_to_speech(textPort="História", textEng="History", filename=path, id=id+1)
-text_to_speech(textPort="Na história", textEng="In history", filename=path, id=id+1)
-text_to_speech(textPort="Vai ficar na história", textEng="Will go down in history", filename=path, id=id+1)
-text_to_speech(textPort="Demonstração", textEng="Demonstration", filename=path, id=id+1)
-text_to_speech(textPort="O melhor", textEng="The greatest", filename=path, id=id+1)
-text_to_speech(textPort="A maior demonstração", textEng="The greatest demonstration", filename=path, id=id+1)
-text_to_speech(textPort="Liberdade", textEng="Freedom", filename=path, id=id+1)
-text_to_speech(textPort="Pela liberdade", textEng="For freedom", filename=path, id=id+1)
-text_to_speech(textPort="Na história", textEng="In the history", filename=path, id=id+1)
-text_to_speech(textPort="Pela liberdade na história", textEng="For freedom in the history", filename=path, id=id+1)
-text_to_speech(textPort="Nação", textEng="Nation", filename=path, id=id+1)
-text_to_speech(textPort="Nossa", textEng="Our", filename=path, id=id+1)
-text_to_speech(textPort="Nossa nação", textEng="Our nation", filename=path, id=id+1)
-text_to_speech(textPort="A história da nossa nação", textEng="The history of our nation", filename=path, id=id+1)
-
-text_to_speech(textPort="Estou feliz por me juntar a vocês hoje no que ficará na história como a maior manifestação pela liberdade na história de nossa nação", 
-               textEng="I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation", 
-               filename=path, id=id+1)
+video_with_audio = VideoFileClip("C:\audios\video.mp4")
+video_with_audio = txt_clip.set_audio(audio_clip)
+video_with_audio.duration = '100.000000'
+video_with_audio.fps=24
+video_with_audio.write_videofile("video.mp4")

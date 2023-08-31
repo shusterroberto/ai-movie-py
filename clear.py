@@ -1,13 +1,17 @@
 import os
+import shutil
 
-def clear_folder(diretorio='./files/'):
+def clear_folder(diretorio='./files/', output=''):
     arquivos = os.listdir(diretorio)
+    if(os.path.isdir(output)):
+        shutil.rmtree(output)
+    
+    os.mkdir(output)
 
-    # Percorre a lista de arquivos e deleta cada um
     for arquivo in arquivos:
-        caminho_arquivo = os.path.join(diretorio, arquivo)  # Gera o caminho completo do arquivo
-        if os.path.isfile(caminho_arquivo):  # Verifica se é um arquivo (não uma pasta)
-            os.remove(caminho_arquivo)  # Deleta o arquivo
+        caminho_arquivo = os.path.join(diretorio, arquivo)
+        if os.path.isfile(caminho_arquivo):
+            shutil.move(diretorio, output)
 
     print("Arquivos deletados com sucesso.")
 
