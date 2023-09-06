@@ -22,5 +22,3 @@ def text_to_speech(textPort, textEng, filename='C:/Audios/', identy=0):
 
     print(f"{textPort} : {textEng}")
     return identy
-
-#files = text_to_speech("Qual é o melhor", "Which one is the best", filename='C:/audios/gerados', identy=0)

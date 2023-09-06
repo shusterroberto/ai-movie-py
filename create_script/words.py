@@ -1,10 +1,13 @@
+import pyphen
+
 def create_scripting(text="I"):
     words = text.split(" ")
     scripting = ""
     phrases = {" "}
+    a = pyphen.Pyphen(lang='en')
 
-    for word in words:
-        scripting += word + "|\n"
+    for word in words:        
+        scripting += a.inserted(word) + "|\n"
         scripting += word + "|\n"
         scripting += word + "|\n"
 
@@ -16,5 +19,7 @@ def create_scripting(text="I"):
     scripting += temp + "|\n"
     scripting += temp + "|\n"
     scripting += temp + "|\n"
+    scripting = scripting.replace(" |","|")
+    scripting = scripting.replace("\n|","|")
     print(scripting)
     return scripting

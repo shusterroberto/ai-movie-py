@@ -1,18 +1,8 @@
-import os
+import create_script.execute
 
-from moviepy.video.tools.subtitles import SubtitlesClip
-from moviepy.video.io.VideoFileClip import VideoFileClip
-from moviepy.editor import *
-
-FFMPEG_BINARY = os.getenv('FFMPEG_BINARY', 'ffmpeg-imageio')
-#IMAGEMAGICK_BINARY = os.getenv('IMAGEMAGICK_BINARY', 'auto-detect')
-IMAGEMAGICK_BINARY = "C:/Program Files/ImageMagick-7.1.1-Q16-HDRI/ffmpeg.exe/magick.exe"
-
-
-generator = lambda text: TextClip(text, font='Georgia-Regular',
-                                  font_size=24, color='white')
-sub = SubtitlesClip("subtitles.srt", generator)
-sub = SubtitlesClip("subtitles.srt", generator, encoding='utf-8')
-myvideo = VideoFileClip("myvideo.avi")
-#final = CompositeVideoClip([clip, subtitles])
-#final.write_videofile("final.mp4", fps=myvideo.fps)
+index=1
+while(index<=54):
+    path = f"C:/Users/shust/OneDrive/Inglês Conversação/Modulo 01/bkp/aula{index}modulo01.txt"
+    print(path)
+    create_script.execute.translate_file.translate_lines(path=path)
+    index += 1

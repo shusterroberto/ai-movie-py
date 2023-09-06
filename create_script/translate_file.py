@@ -1,11 +1,28 @@
 import translate
 import os
+import translate
 
 file = ""
-def translate(path = ""):
-    with open(path, 'w') as arquivo:
-        print(arquivo)
+finish = False
+def translate_lines(path = ""):
+    global finish
+    filelocal = ""
+    with open(path, 'r') as archive:
+        lines = archive.readlines()
+        
+        for line in lines:
+            if(line.find("@")<=0):
+                text=line.replace("|\n","").replace("|","").replace("\n","")
+                translated = translate.english_to_portuguese(text)
+                #finish = False
 
-    arquivo.write(file)
+            if(len(translated)>0):
+                line = f"{text}|{translated}@\n"
 
-translate("C:\Users\shust\OneDrive\Inglês Conversação\Modulo 01\bkp\aula17modulo01.txt")
+            filelocal += line
+            print(line)
+
+    with open(path, 'w') as newFile:
+        newFile.write(filelocal)
+
+    return True
