@@ -1,5 +1,5 @@
 import os
-import clear
+import utils.clear as clear
 import utils.copy
 
 from pydub import AudioSegment

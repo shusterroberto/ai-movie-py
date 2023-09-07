@@ -1,5 +1,5 @@
 from googletrans import Translator
-import pytranslate
+import create_script.pytranslate
 
 def english_to_portuguese(text=""):
     try:
@@ -9,4 +9,4 @@ def english_to_portuguese(text=""):
         print(translated.text)
         return translated.text
     except Exception:
-        return pytranslate.english_to_portuguese(text=text)
+        return create_script.pytranslate.english_to_portuguese(text=text)

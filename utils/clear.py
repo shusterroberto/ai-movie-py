@@ -11,7 +11,7 @@ def clear_folder(diretorio='./files/', output=''):
     for arquivo in arquivos:
         caminho_arquivo = os.path.join(diretorio, arquivo)
         if os.path.isfile(caminho_arquivo):
-            shutil.move(diretorio, output)
+            shutil.move(caminho_arquivo, output)
 
     print("Arquivos deletados com sucesso.")
 

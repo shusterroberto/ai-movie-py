@@ -1,6 +1,6 @@
 import os
 import shutil
-import clear
+import utils.clear as clear
 
 def backup(diretorio='./files/', output=''):
     if(os.path.isdir(output)==False):
