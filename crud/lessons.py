@@ -1,73 +1,53 @@
 import peewee as pw
 
-# Defina a conexão com o banco de dados SQLite
-db = pw.SqliteDatabase('exemplo_orm.db')
+db = pw.SqliteDatabase('learning_english.db')
 
-# Defina o modelo de dados para a tabela 'Usuario'
 class Lesson(pw.Model):
-    nome = pw.CharField()
-    email = pw.CharField(unique=True)  # Garante que o email seja único
-    id = pw.IntegerField()
-    name = pw.CharField()
-
+    path = pw.CharField()
+    name = pw.CharField()    
+    module = pw.CharField()
+    lessonId = pw.CharField(unique=True)
+    
     class Meta:
         database = db
 
-# Inicialize o banco de dados e crie a tabela, se não existir
 db.connect()
-
-db.drop_tables('lesson')
-print(db.get_tables())
-
 db.create_tables([Lesson], safe=True)
 
-# Função para criar um novo usuário
-def criar_usuario(nome, email, name):
+def create_lesson(module, lessonId, name, path):
     try:
-        Lesson.create(nome=nome, email=email, name=name)
-        print(f"Usuário {nome} criado com sucesso.")
+        Lesson.create(module=module, lessonId=lessonId, name=name, path=path)
+        print(f"Lesson {name} successfully created")
     except pw.IntegrityError:
-        print(f"Já existe um usuário com o email {email}.")
+        print(f"Lesson already exists {name}.")
 
-# Função para listar todos os usuários
-def listar_usuarios():
-    usuarios = Lesson.select()
-    for usuario in usuarios:
-        print(f"ID: {usuario.id}, Nome: {usuario.nome}, Email: {usuario.name}")
+def list_lessons(name=""):
+    if(len(name)>0):
+        lessons = Lesson.get_or_none(name=name)
+        return lessons
+    
+    print("List of lessons")
+    lessons = Lesson.select()
+    return lessons
 
-# Função para atualizar informações de um usuário
-def atualizar_usuario(usuario_id, novo_nome, novo_email):
-    usuario = Lesson.get_or_none(id=usuario_id)
-    if usuario:
-        usuario.nome = novo_nome
-        usuario.email = novo_email
-        usuario.save()
-        print(f"Informações do usuário {usuario_id} atualizadas com sucesso.")
+def update_lesson(lessonId, name, path):
+    lesson = Lesson.get_or_none(id=lessonId)
+    if lesson:
+        lesson.name = name
+        lesson.lessonId = lessonId
+        lesson.path = path
+        lesson.save()
+        print(f"Lesson {lessonId} sucessfull updated.")
     else:
-        print(f"Usuário com ID {usuario_id} não encontrado.")
+        print(f"Lesson id {lessonId} not found.")
 
 # Função para excluir um usuário
-def excluir_usuario(usuario_id):
-    usuario = Lesson.get_or_none(id=usuario_id)
-    if usuario:
-        usuario.delete_instance()
-        print(f"Usuário {usuario_id} excluído com sucesso.")
+def delete_lesson(lessonid):
+    lesson = Lesson.get_or_none(id=lessonid)
+    if lesson:
+        lesson.delete_instance()
+        print(f"Lesson {lessonid} sucessfull deleted.")
     else:
-        print(f"Usuário com ID {usuario_id} não encontrado.")
+        print(f"Lesson ID {lessonid} not found.")
 
-# Exemplo de uso
-criar_usuario("João", "joao@example.com", name="Aula 01")
-criar_usuario("Maria", "maria@example.com", name="Aula 02")
-
-print("Lista de Usuários:")
-listar_usuarios()
-
-atualizar_usuario(1, "João da Silva", "joao.silva@example.com")
-
-print("\nLista de Usuários após a atualização:")
-listar_usuarios()
-
-excluir_usuario(2)
-
-print("\nLista de Usuários após a exclusão:")
-listar_usuarios()
+list_lessons()

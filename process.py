@@ -1,7 +1,7 @@
 import speech
 import utils.folder
 
-def generate_audio(file="", path="C:/github"):
+def generate_audio(file="", path="C:/github", lessonId=0):
     identy=0    
     texto=""
     bra=""
@@ -19,9 +19,9 @@ def generate_audio(file="", path="C:/github"):
                     texto=""
 
                 if(i!="|" and i!="@" and i!="\n"): 
-                    texto=texto+i
+                    texto=texto+str(i)
 
             if(utils.folder.diretory_exists(path=path,create=True)):
-                identy = speech.text_to_speech(textPort=bra, textEng=eng, filename=path, identy=identy)
+                identy = speech.text_to_speech(textPort=bra, textEng=eng, filename=path, identy=identy, lessonId=lessonId)
     
     return True
