@@ -6,6 +6,7 @@ class Lesson(pw.Model):
     path = pw.CharField()
     name = pw.CharField()    
     module = pw.CharField()
+    genarate = pw.BooleanField()
     lessonId = pw.CharField(unique=True)
     
     class Meta:
@@ -49,5 +50,3 @@ def delete_lesson(lessonid):
         print(f"Lesson {lessonid} sucessfull deleted.")
     else:
         print(f"Lesson ID {lessonid} not found.")
-
-list_lessons()
